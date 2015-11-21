@@ -28,10 +28,8 @@
     </div>
 
     <div class="container" ng-controller="MainCtrl">
-        <div>
-            <esri-map id="map" map-options="map.options" load="onMapLoad">
-            </esri-map>
-        </div>
+        <esri-map id="map" map-options="map.options" load="onMapLoad">
+        </esri-map>
         <div>
             <button ng-click="activateDrawTool('Extent')">Draw Rectangle</button>
         </div>
