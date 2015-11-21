@@ -18,7 +18,7 @@ describe('Controller: MainCtrl', function () {
   }));
 
   it('should have a Map attached to the scope', function(){
-    expect(MainCtrl.map != null);
+    expect(MainCtrl.map !== null);
   });
 
   //it('should attach a list of awesomeThings to the scope', function () {
